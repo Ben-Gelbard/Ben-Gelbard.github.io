@@ -253,6 +253,7 @@ html {
     margin-right: 70px;
     margin-top: 55px;
     z-index: 1;
+    line-height: 1.2;
   }
 
   @keyframes othergreen {
@@ -287,24 +288,6 @@ html {
     100% {background-color:#9A66A4; left:0px; top:0px;}
   }
 
-/* .rectangle:hover {
-  transform: rotateX(180deg);
-  transition-duration: 1s;
-} */
-
-
-@keyframes opensquare {
-
-
-  /* from {
-    grid-row: 2 / 3;
-    grid-column: 1 / 4;
-  }
-  to {
-    grid-row: 2 / 9;
-    grid-column: 1 / 7;
-  } */
-}
 
 
     
