@@ -67,6 +67,9 @@ background-color: #B0B5B3;
   margin-top: 1em;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
+  z-index: 1;
+  border-spacing: 10px;
+  color: #FCCC9D;
 }
 
 .grid {
