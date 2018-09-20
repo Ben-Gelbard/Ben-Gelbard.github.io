@@ -63,13 +63,14 @@ background-color: #B0B5B3;
   width: 50px;
   height: 50px;
   padding-left: 7em;
-  padding-top: 6em;
+  padding-top: 1em;
   margin-top: 1em;
   grid-column: 2 / 3;
   grid-row: 2 / 3;
   z-index: 1;
   border-spacing: 10px;
   color: #FCCC9D;
+  display: inline-block;
 }
 
 .grid {
@@ -109,7 +110,6 @@ background-color: #B0B5B3;
 } */
 
 .main-grid > .rectangle {
-  animation-name: warpshapes;
   animation-duration: 8s;
   animation-iteration-count: infinite;
 }
@@ -133,6 +133,7 @@ background-color: #B0B5B3;
     grid-row: 2 / 3;
     grid-column: 1 / 4;
     animation-delay: 10s;
+    animation-name: warpshapes_ps;
     animation-direction: alternate;
 
   }
@@ -141,6 +142,7 @@ background-color: #B0B5B3;
     grid-row: 4 / 5;
     grid-column: 1 / 3;
     animation-delay: 2s;
+    animation-name: warpshapes_node;
     animation-direction: alternate;
 }
 
@@ -148,6 +150,7 @@ background-color: #B0B5B3;
     grid-row: 3 / 7;
     grid-column: 4 / 5;
     animation-delay: 1s;
+    animation-name: warpshapes_ill;
     animation-direction: alternate;
   }
 
@@ -170,6 +173,7 @@ background-color: #B0B5B3;
     .rectangle:nth-child(10) {
     grid-row: 7 / 8;
     grid-column: 4 / 5;
+    animation-name: warpshapes_js;
     animation-direction: alternate;
   }
 
@@ -177,6 +181,7 @@ background-color: #B0B5B3;
     .rectangle:nth-child(12) {
     grid-row: 1 / 3;
     grid-column: 6 / 7;
+    animation-name: warpshapes_html;
     animation-direction: alternate;
   }
 
@@ -193,6 +198,7 @@ background-color: #B0B5B3;
     grid-row: 8 / 9;
     grid-column: 1 / 3;
     animation-delay: .5s;
+    animation-name: warpshapes_ruby;
     animation-direction: alternate;
   }
 
@@ -200,6 +206,7 @@ background-color: #B0B5B3;
     grid-row: 5 / 7;
     grid-column: 1 / 4;
     animation-delay: 0s;
+    animation-name: warpshapes_rails;
     animation-direction: alternate;
   }
 
@@ -214,6 +221,7 @@ background-color: #B0B5B3;
     grid-row: 7 / 9;
     grid-column: 5 / 8;
     animation-delay: 1.5s;
+    animation-name: warpshapes_css;
     animation-direction: alternate;
     }
 
@@ -237,6 +245,7 @@ background-color: #B0B5B3;
     grid-row: 3 / 6;
     grid-column: 5 / 7;
     animation-delay: 0s;
+    animation-name: warpshapes_vs;
     animation-direction: alternate;
   }
 
@@ -275,12 +284,12 @@ background-color: #B0B5B3;
   100% {background-color:#9A66A4; left:0px; top:0px;}
 }
 
-@keyframes warpshapes {
+@keyframes warpshapes_ps {
   from {
 
   }
   to {
-    background-color: #9BB353;
+    background-color: #80b5e2;
     border-radius: 20%;
     transform: rotate(360deg);
     opacity: .5;
@@ -288,5 +297,107 @@ background-color: #B0B5B3;
   }
 }
 
+@keyframes warpshapes_ill {
+  from {
 
+  }
+  to {
+    background-color: #faa625;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_html {
+  from {
+
+  }
+  to {
+    background-color: #e44d26;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_css {
+  from {
+
+  }
+  to {
+    background-color: #1572b6;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_js {
+  from {
+
+  }
+  to {
+    background-color: #f0db4f;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_vs {
+  from {
+
+  }
+  to {
+    background-color: #68217a;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_ruby {
+  from {
+
+  }
+  to {
+    background-color: #d91404;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_rails {
+  from {
+
+  }
+  to {
+    background-color: #A62C46;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
+
+@keyframes warpshapes_node {
+  from {
+
+  }
+  to {
+    background-color: #7ec528;
+    border-radius: 20%;
+    transform: rotate(360deg);
+    opacity: .5;
+    /* float: left; */
+  }
+}
 
