@@ -116,7 +116,7 @@ html {
   }
 
 .rectangle {
-  transition-duration: 10s;
+  animation-delay: 10s;
 }
 
     /* angleblue */
@@ -216,7 +216,7 @@ html {
     .rectangle:nth-child(8) {
     grid-row: 2 / 3;
     grid-column: 4 / 6;
-    animation: floating 20s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
+    animation: floating2 20s infinite cubic-bezier(0.3, 0.27, 0.07, 1.64);
     animation-direction: normal;
     color: #B3D89C;
 
