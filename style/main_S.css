@@ -92,3 +92,11 @@ html {
       animation: myrotate 5s infinite; */
 
   }
+
+  @media only screen and (max-width: 750px) {
+    .main-grid {
+        grid-column: 1 / 3;
+        grid-row: 1 / 3;
+        width: 365px;
+    }
+}

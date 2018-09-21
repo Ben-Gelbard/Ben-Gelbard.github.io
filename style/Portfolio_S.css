@@ -190,11 +190,9 @@
 @keyframes myrotate {
   from {
     transform: rotate(0deg);
-    opacity: 0;
   }
   to {
     transform: rotate(45deg);
-    opacity: 1;
   }
 }
 

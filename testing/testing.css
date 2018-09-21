@@ -318,30 +318,6 @@ html {
 }
 }
 
-/* @keyframes floating {
-  25% {
-    transform: translate3d(350px, 250px, 150px);
-  }
-  50% {
-    transform: translate3D(10px, -100px, 60px);
-  }
-  75% {
-    transform: translate3d(150px, 100px, -60px);
-  }
-}
-
-@keyframes floating2 {
-  25% {
-    transform: translate3d(-100px, -243px, 184px);
-  }
-  50% {
-    transform: translate3D(94px, -12px, 40px);
-  }
-  75% {
-    transform: translate3d(224px, 104px, -23px);
-  }
-}
-*/
 @keyframes floating3 {
   25% {
     transform: translate3d(-350px, 43px, 74px);
