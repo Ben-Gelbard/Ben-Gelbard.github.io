@@ -46,7 +46,7 @@ In the 1980's the internet starts being introduced to other areas of the world, 
 
 ### Define and describes the relationship between fundamental aspects of the internet such as: domains, web servers, DNS, and web browsers (max. 150 words)
 
-
+An Internet Protocol (IP) address takes the form of a series of digits separated by dots or colons. If all the machines have numeric addresses, every machine knows exactly how (and where) to contact every other machine. The DNS is a distributed database which keeps track of computer's names and their corresponding IP addresses on the Internet. The domain name is a key part of the online address, and is what your visitors will use to find you easily. 
 
 ### Reflect on one aspect of the development of internet technologies and how it has contributed to the world today (max. 150 words)
 
