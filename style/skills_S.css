@@ -89,6 +89,7 @@
 
 .links {
   cursor: pointer;
+  z-index: 1;
 }
 
 .main-grid > .rectangle {

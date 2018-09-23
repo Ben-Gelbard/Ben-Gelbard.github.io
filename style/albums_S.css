@@ -23,7 +23,7 @@
 
 
   .rectangle {
-    transition-duration: 1s;
+    transition-duration: 20s;
   }
     /* othergreen */
 
@@ -155,47 +155,37 @@
     animation-direction: alternate;
   }
 
-@keyframes warpshapes {
-  from {
-
-  }
-  to {
-    border-radius: 50%;
-    background-color: #9A66A4;
-    /* float: left; */
-  }
-}
 
 @keyframes othergreen {
-  0%   {background-color:#212121; left:0px; top:0px;}
+  0%   {background-color:#212121; left:0px; top:0px; opacity: 0;}
   25%  {background-color:#212121; left:200px; top:0px;}
-  50%  {background-color:#212121; left:200px; top:200px;}
-  75%  {background-color:#212121; left:0px; top:200px;}
-  100% {background-color: #9BB353; left:0px; top:0px;}
+  50%  {background-color:#9BB353; left:200px; top:200px;}
+  75%  {background-color:#9BB353; left:0px; top:200px;}
+  100% {background-color: #9BB353; left:0px; top:0px; opacity:.81;}
 }
 
 @keyframes violet {
-  0%   {background-color:#212121; left:0px; top:0px;}
+  0%   {background-color:#212121; left:0px; top:0px; opacity: 0;}
   25%  {background-color:#212121; left:200px; top:0px;}
-  50%  {background-color:#212121; left:200px; top:200px;}
-  75%  {background-color:#212121; left:0px; top:200px;}
-  100% {background-color:#A1B2DD; left:0px; top:0px;}
+  50%  {background-color:#A1B2DD; left:200px; top:200px;}
+  75%  {background-color:#A1B2DD; left:0px; top:200px;}
+  100% {background-color:#A1B2DD; left:0px; top:0px; opacity: .8;}
 }
 
 @keyframes beige {
-  0%   {background-color:#212121; left:0px; top:0px;}
+  0%   {background-color:#212121; left:0px; top:0px; opacity: 0;}
   25%  {background-color:#212121; left:200px; top:0px;}
-  50%  {background-color:#212121; left:200px; top:200px;}
-  75%  {background-color:#212121; left:0px; top:200px;}
-  100% {background-color:#FCCC9D; left:0px; top:0px;}
+  50%  {background-color:#FCCC9D; left:200px; top:200px;}
+  75%  {background-color:#FCCC9D; left:0px; top:200px;}
+  100% {background-color:#FCCC9D; left:0px; top:0px; opacity: .8;}
 }
 
 @keyframes purple {
-  0%   {background-color:#212121; left:0px; top:0px;}
+  0%   {background-color:#212121; left:0px; top:0px; opacity: 0;}
   25%  {background-color:#212121; left:200px; top:0px;}
-  50%  {background-color:#212121; left:200px; top:200px;}
-  75%  {background-color:#212121; left:0px; top:200px;}
-  100% {background-color:#9A66A4; left:0px; top:0px;}
+  50%  {background-color:#9A66A4; left:200px; top:200px;}
+  75%  {background-color:#9A66A4; left:0px; top:200px;}
+  100% {background-color:#9A66A4; left:0px; top:0px; opacity: .8;}
 }
 
 
