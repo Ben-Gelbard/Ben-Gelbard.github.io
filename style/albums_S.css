@@ -188,7 +188,40 @@
   100% {background-color:#9A66A4; left:0px; top:0px; opacity: .8;}
 }
 
+.about_albums {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin-right: 80px;
+  margin-top: 55px;
+  z-index: 1;
+  line-height: 1;
+}
+.about_albums1 {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  margin-right: 80px;
+  margin-top: 180px;
+  z-index: 1;
+  line-height: 1.2;
+  text-size-adjust: 12px;
+  text-align: center;
 
+}
+
+.link{
+  color: #fff;
+  text-decoration-line: none;
+}
+
+.link:hover {
+  color: #FCCC9D;
+  background: #212121;
+}
+
+.blue:hover {
+  color: #A1B2DD;
+  background: #212121;
+}
 
     
 
