@@ -2,6 +2,8 @@ https://www.figma.com/file/cy385CTJCKr4Zolx98a82D6N/Portfolio-Ideas?node-id=74%3
 
 http://127.0.0.1:5500/Portfolio_about.html
 
+
+
 ## Brainstorming
 
 When starting this portfolio I a had no idea what I wanted to do. How was I going to design it, what were my inspirations? After a while of trying to think about what to think about I started browsing my iTunes library to find some music to try to inspire my inspiration, and it hit me. Album covers are art. 
@@ -39,6 +41,11 @@ there are 6 links at the bottom-left corner of this page:
    
 each page just became a way that I could manipulate this shape, and have it do subtle but vivid animations. I didn't want the movements and colors to be too distraction, more to add a nice visual backdrop for what was being displayed. 
 
+for the color choices I used a combination of colors from the albums covers as well as some colors schemes from Coolors (https://coolors.co/f7aef8-b388eb-8093f1-72ddf7-f4f4ed)
+
+## challenges
+
+To get the main box to do what I wanted from the start. It was a lot of fun as well as challenging to get the my idea to be represented in html/css. The contact page I also struggled with, I didn't know how to place to contact form or which animations to put around it. I'm still not satisfied with it.
 
 ### Describe key events in the development of the internet from the 1980s to today (max. 150 words)
 

@@ -92,6 +92,11 @@
   z-index: 1;
 }
 
+.links:hover {
+  transform: scale(1.1);
+  animation-duration: 1s;
+}
+
 .main-grid > .rectangle {
   animation-duration: 8s;
   animation-iteration-count: infinite;

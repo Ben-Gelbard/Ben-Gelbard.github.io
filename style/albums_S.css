@@ -213,9 +213,18 @@
   text-decoration-line: none;
 }
 
+.link1{
+  color: #fff;
+  text-decoration-line: none;
+}
+
 .link:hover {
   color: #FCCC9D;
   background: #212121;
+}
+
+.link1:hover {
+  color: #FCCC9D;
 }
 
 .blue:hover {
