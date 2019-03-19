@@ -1,7 +1,7 @@
 html {
     background: #13161C;
     color: #fff;
-    font-family: "Heiti TC";
+    font-family: "heiti tc";
 }
 
 .menu {
@@ -15,7 +15,7 @@ html {
 .buttons {
   background-color: #13161C;
   color: #4D4D4D;
-  font-size: 16px;
+  font-size: 13px;
   border: 0 #13161C;
   font-family: "Heiti TC";
   height: 50px;
@@ -87,7 +87,7 @@ html {
       /* grid-template-columns: repeat(7, 1fr);
       grid-template-rows: repeat(8, 1fr); */
       height: 100%;
-      grid-gap: 5px;   
+      grid-gap: 2px;   
       position :relative;
       animation-name: myrotate;
       animation-delay: 5s;
